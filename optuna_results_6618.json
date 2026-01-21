@@ -1,0 +1,54 @@
+{
+    "RandomForestClassifier": {
+        "best_params": {
+            "n_estimators": 1300,
+            "max_features": "sqrt",
+            "max_depth": 26,
+            "criterion": "entropy",
+            "min_samples_split": 16,
+            "bootstrap": false
+        },
+        "best_score": 0.8889566435977222
+    },
+    "HistGradientBoostingClassifier": {
+        "best_params": {
+            "max_iter": 1200,
+            "max_features": 0.8088753262516312,
+            "learning_rate": 0.08691588648416695,
+            "max_depth": 7,
+            "max_bins": 143,
+            "min_samples_leaf": 43
+        },
+        "best_score": 0.8969761946244379
+    },
+    "XGBClassifier": {
+        "best_params": {
+            "n_estimators": 1200,
+            "learning_rate": 0.021839352923182977,
+            "max_depth": 6,
+            "subsample": 0.836965827544817,
+            "colsample_bytree": 0.3325152889039984
+        },
+        "best_score": 0.8952797346736067
+    },
+    "CatBoostClassifier": {
+        "best_params": {
+            "iterations": 1900,
+            "learning_rate": 0.4123206532618726,
+            "depth": 8,
+            "l2_leaf_reg": 2.6208630215377515,
+            "border_count": 32
+        },
+        "best_score": 0.8841749067474985
+    },
+    "LGBMClassifier": {
+        "best_params": {
+            "n_estimators": 1100,
+            "learning_rate": 0.10763637487528757,
+            "max_depth": 7,
+            "num_leaves": 80,
+            "min_data_in_leaf": 30
+        },
+        "best_score": 0.8979025482286769
+    }
+}
